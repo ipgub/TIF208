@@ -1,0 +1,535 @@
+WEBVTT
+
+1
+00:00:00.150 --> 00:00:04.990
+Suppose you're taking measurements
+of a physical quantity that you know
+
+2
+00:00:04.990 --> 00:00:07.750
+to be smooth and slowly varying.
+
+3
+00:00:07.750 --> 00:00:12.840
+For instance, the tide level at the sea or
+the blood pressure of a patient.
+
+4
+00:00:12.840 --> 00:00:15.630
+Because of the measurement
+process your values,
+
+5
+00:00:15.630 --> 00:00:20.190
+the values that you actually measure are
+corrupted by some form of additive noise.
+
+6
+00:00:20.190 --> 00:00:23.920
+Which at this point we could just say
+it's some extraneous quantity that
+
+7
+00:00:23.920 --> 00:00:25.870
+perturbs the measured value.
+
+8
+00:00:25.870 --> 00:00:29.550
+So what you get in the end instead of
+the smooth curve of the first panel
+
+9
+00:00:29.550 --> 00:00:34.560
+is a curve where you see that there's
+really fast wiggles that you interpret
+
+10
+00:00:34.560 --> 00:00:35.960
+as being a noise corruption.
+
+11
+00:00:35.960 --> 00:00:41.120
+And the question is can we process
+this data as a discrete time-signal,
+
+12
+00:00:41.120 --> 00:00:43.440
+so that most of the noise is removed and
+
+13
+00:00:43.440 --> 00:00:48.600
+we get back a measurement this in line
+with our expectations of smoothness.
+
+14
+00:00:48.600 --> 00:00:52.960
+The first idea is to replace each
+sample of the average sequence
+
+15
+00:00:52.960 --> 00:00:54.920
+with a local average.
+
+16
+00:00:54.920 --> 00:00:57.620
+Averages are usually good when you want to
+
+17
+00:00:57.620 --> 00:01:02.000
+eliminate random variations
+that you don't know much about.
+
+18
+00:01:02.000 --> 00:01:06.100
+So for instance, assume a situation
+where we process the signal and
+
+19
+00:01:06.100 --> 00:01:09.610
+the process signal is at each sample
+
+20
+00:01:09.610 --> 00:01:15.030
+the simple two point average of
+the current sample and the past sample.
+
+21
+00:01:15.030 --> 00:01:19.990
+Well it could very well be that the two
+point average is not enough to remove
+
+22
+00:01:19.990 --> 00:01:21.430
+most of the noise.
+
+23
+00:01:21.430 --> 00:01:26.240
+And so in general, we could take longer
+averages by considering the output
+
+24
+00:01:26.240 --> 00:01:32.060
+samples to be the average of
+capital M points from the input.
+
+25
+00:01:32.060 --> 00:01:33.910
+If we try to do that experimentally,
+
+26
+00:01:33.910 --> 00:01:38.540
+we can see immediately that the strategy
+works for increasing values of M.
+
+27
+00:01:38.540 --> 00:01:41.420
+So if we take just the two point average,
+
+28
+00:01:41.420 --> 00:01:44.690
+we see than we don't really
+get a lot of leverage.
+
+29
+00:01:44.690 --> 00:01:48.810
+You can see in blue the original signal,
+and in red,
+
+30
+00:01:48.810 --> 00:01:53.640
+the filtered output and with a two point
+average, we still have a lot of wiggles.
+
+31
+00:01:53.640 --> 00:01:57.920
+But as we increase the number of points
+that we use to compute the average,
+
+32
+00:01:57.920 --> 00:02:02.800
+we can see that we start to remove
+a little bit more of the noise.
+
+33
+00:02:02.800 --> 00:02:08.510
+And by a 12 point average we already can
+see that the strategy already pays off.
+
+34
+00:02:08.510 --> 00:02:12.380
+We have I'll write this mood without
+the signal requires significantly, and
+
+35
+00:02:12.380 --> 00:02:16.730
+if we're willing to increase
+the average up to say,
+
+36
+00:02:16.730 --> 00:02:22.230
+100 point, then we can see that the signal
+we get the output is actually very smooth.
+
+37
+00:02:22.230 --> 00:02:25.440
+You will also see that with
+respect to the original signal,
+
+38
+00:02:25.440 --> 00:02:29.150
+the output has been delayed
+by a certain amount.
+
+39
+00:02:29.150 --> 00:02:32.190
+This is the price we pay
+because we are actually
+
+40
+00:02:32.190 --> 00:02:36.300
+using up 100 samples to
+compute the output value.
+
+41
+00:02:36.300 --> 00:02:41.000
+So in a sense we are accumulating
+a certain delay with respect to the input
+
+42
+00:02:41.000 --> 00:02:43.060
+because we're averaging from the past.
+
+43
+00:02:43.060 --> 00:02:45.568
+We will see this in more detail later on.
+
+44
+00:02:45.568 --> 00:02:49.096
+What we have done is really
+a filtering operation, and
+
+45
+00:02:49.096 --> 00:02:53.313
+if we want to compute the input's
+response, we need to do nothing
+
+46
+00:02:53.313 --> 00:02:57.763
+more than just put the delta function
+inside our averaging machine,
+
+47
+00:02:57.763 --> 00:03:02.518
+and it's very easy to see that if we
+put the delta function in here, this,
+
+48
+00:03:02.518 --> 00:03:07.080
+remember, is the averaging
+relationship that we saw before.
+
+49
+00:03:07.080 --> 00:03:11.550
+We have that the impulse
+response is equal to 1 over M for
+
+50
+00:03:11.550 --> 00:03:15.360
+n that goes from 0 to M minus 1,
+and 0 otherwise.
+
+51
+00:03:15.360 --> 00:03:19.674
+It's easy to convince yourself
+that in this summation there
+
+52
+00:03:19.674 --> 00:03:24.168
+is only one non zero term,
+which is the one where n is equal to k.
+
+53
+00:03:24.168 --> 00:03:27.507
+Since the index goes from 0 to n minus 1.
+
+54
+00:03:27.507 --> 00:03:32.353
+If your value of n is outside of this
+range, none of these terms will be non 0,
+
+55
+00:03:32.353 --> 00:03:33.634
+and you will get 0.
+
+56
+00:03:33.634 --> 00:03:37.730
+If we plot the impulse response,
+it looks like this.
+
+57
+00:03:37.730 --> 00:03:44.760
+So you will have a string of samples that
+are equal to 1 over m from 0 to M minus 1.
+
+58
+00:03:44.760 --> 00:03:49.563
+So what we had learned experimentally,
+is that the smoothing effect of the filter
+
+59
+00:03:49.563 --> 00:03:52.842
+is proportional to the length
+of the impulse response.
+
+60
+00:03:52.842 --> 00:03:57.130
+As a consequence of that a number of
+operations that we have to perform to
+
+61
+00:03:57.130 --> 00:04:00.131
+compute each output sample and
+also the storage,
+
+62
+00:04:00.131 --> 00:04:04.705
+because we have to keep in the memory of
+our processing unit the past values in
+
+63
+00:04:04.705 --> 00:04:07.777
+order to be able to compute
+the average while both of
+
+64
+00:04:07.777 --> 00:04:11.940
+these quantities are proportional
+to the length of the filter.
+
+65
+00:04:11.940 --> 00:04:18.580
+So as the filter becomes longer and
+as its smoothing effect increases,
+
+66
+00:04:18.580 --> 00:04:23.600
+the price we pay in terms of computational
+resources and memory are higher.
+
+67
+00:04:23.600 --> 00:04:27.790
+So we might not like that and we might
+want to see whether there's a smarter way
+
+68
+00:04:27.790 --> 00:04:34.470
+to achieve the same effect without using
+up so much in terms of computer power.
+
+69
+00:04:34.470 --> 00:04:36.770
+Let's look at the equation for
+the moving average,
+
+70
+00:04:36.770 --> 00:04:41.950
+it's just one over capital m,
+times the sum of input samples from
+
+71
+00:04:41.950 --> 00:04:47.240
+m to n minus capital m plus now
+we can split this into two parts.
+
+72
+00:04:47.240 --> 00:04:51.330
+We have the first term, which is one
+over capital M times the current input,
+
+73
+00:04:51.330 --> 00:04:56.510
+plus 1 over capital M,
+times the sum of past input samples
+
+74
+00:04:56.510 --> 00:05:00.010
+from m minus 1 to m
+minus capital M plus 1.
+
+75
+00:05:00.010 --> 00:05:04.790
+And this is the sum of
+capital M minus 1 terms.
+
+76
+00:05:04.790 --> 00:05:10.950
+So the second term here looks suspiciously
+close to the moving average computed this
+
+77
+00:05:10.950 --> 00:05:16.915
+time over capital M minus 1 point, so 1
+point less than before, and delayed by 1.
+
+78
+00:05:18.500 --> 00:05:20.640
+So it's close, but
+it's not quite the same thing,
+
+79
+00:05:20.640 --> 00:05:24.930
+so let's look at ways to
+formalize this relationship.
+
+80
+00:05:24.930 --> 00:05:29.190
+To do so, we first write out the standard
+equation for the moving average filter.
+
+81
+00:05:29.190 --> 00:05:32.120
+Which we have seen before,
+so nothing new here.
+
+82
+00:05:32.120 --> 00:05:37.160
+Now we try and compute the delayed output,
+so y of capital M
+
+83
+00:05:37.160 --> 00:05:42.220
+of n minus 1 is 1 over capital
+M times the sum from k
+
+84
+00:05:42.220 --> 00:05:47.400
+that goes to 0 to capital M minus 1,
+of x of n minus 1 minus k.
+
+85
+00:05:48.470 --> 00:05:52.670
+We can rearrange the index
+of the signal like so and
+
+86
+00:05:52.670 --> 00:05:57.210
+now this plus one that affects only
+the summation index can be propagated to
+
+87
+00:05:57.210 --> 00:06:03.440
+the summation range and we have that
+if we delay the moving average by one.
+
+88
+00:06:03.440 --> 00:06:09.310
+We basically just effect the range of
+the summation that now goes from one to M,
+
+89
+00:06:09.310 --> 00:06:11.370
+instead of from 0 to N minus 1.
+
+90
+00:06:11.370 --> 00:06:18.492
+Okay, now let's look at the formula for
+the moving average over M- 1 point and
+
+91
+00:06:18.492 --> 00:06:23.699
+this is just a moving average so
+1 over capital M- 1 times
+
+92
+00:06:23.699 --> 00:06:28.829
+the sum from k that goes to 0
+to capital M- 2 of n of x- k.
+
+93
+00:06:28.829 --> 00:06:33.257
+And now we do the same,
+we try to delay this by 1 and
+
+94
+00:06:33.257 --> 00:06:38.848
+again this delay will propagate
+to this summation arranged and
+
+95
+00:06:38.848 --> 00:06:44.668
+we will have the sum that goes now
+from k = 1 to capital M minus 1.
+
+96
+00:06:44.668 --> 00:06:49.831
+So, formula for the moving average
+over capital M points and here,
+
+97
+00:06:49.831 --> 00:06:54.733
+formula for the moving average
+over n- 1 points delayed by 1.
+
+98
+00:06:54.733 --> 00:07:02.276
+All right, but now if we take the sum
+of the input from 0 to M minus 1,
+
+99
+00:07:02.276 --> 00:07:10.100
+we can split this as a current sample
+plus N minus 2 samples in the past.
+
+100
+00:07:11.390 --> 00:07:15.390
+And so
+this part here corresponds to this and
+
+101
+00:07:15.390 --> 00:07:19.760
+this part here corresponds to this so
+we can.
+
+102
+00:07:19.760 --> 00:07:25.142
+Small terms and we obtain
+the relationship that we were looking for
+
+103
+00:07:25.142 --> 00:07:29.563
+between the moving average
+over capital M points, and
+
+104
+00:07:29.563 --> 00:07:34.768
+the moving average over capital
+M minus 1 points delayed by 1.
+
+105
+00:07:34.768 --> 00:07:38.687
+So we rearrange the terms,
+and we have that,
+
+106
+00:07:38.687 --> 00:07:45.703
+the moving average over capital M points
+in n Is equal to capital M minus 1 over M,
+
+107
+00:07:45.703 --> 00:07:49.933
+times the moving average
+over n minus 1 points,
+
+108
+00:07:49.933 --> 00:07:53.580
+delayed by 1, plus 1 over M times x of n.
+
+109
+00:07:53.580 --> 00:07:58.870
+So if we want to write this a little bit
+better, we define a parameter lambda as
+
+110
+00:07:58.870 --> 00:08:03.890
+M minus 1 over M, and
+we have this final relationship here.

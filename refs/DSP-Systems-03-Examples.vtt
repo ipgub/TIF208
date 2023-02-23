@@ -1,0 +1,726 @@
+WEBVTT
+
+1
+00:00:01.180 --> 00:00:04.360
+In today's Signal of the Day,
+we have a look at
+
+2
+00:00:04.360 --> 00:00:09.570
+an important problem in room acoustics
+entitled Can One Hear the Shape of a Room?
+
+3
+00:00:11.270 --> 00:00:16.280
+Let us first investigate how sound
+propagates in a room between a sender, or
+
+4
+00:00:16.280 --> 00:00:21.220
+a loud speaker, s, and
+the receiver, or a microphone, r.
+
+5
+00:00:21.220 --> 00:00:23.340
+Which is illustrated in
+the following figure.
+
+6
+00:00:24.620 --> 00:00:27.360
+The first sound to reach
+the microphone corresponds to
+
+7
+00:00:27.360 --> 00:00:30.820
+the direct transmission
+path depicted in orange.
+
+8
+00:00:33.820 --> 00:00:38.290
+But together with this direct transmission
+echos from the walls also arrive at
+
+9
+00:00:38.290 --> 00:00:40.919
+the microphone depicted in purple here.
+
+10
+00:00:42.030 --> 00:00:44.350
+So walls act essentially as mirrors.
+
+11
+00:00:44.350 --> 00:00:48.350
+Every time a sound hits the wall,
+part of the sound is reflected in
+
+12
+00:00:48.350 --> 00:00:53.270
+such a way that the incident's
+angle equals the reflection angle.
+
+13
+00:00:53.270 --> 00:00:58.340
+These angles are defined with respect
+to the normal of the walls ni and
+
+14
+00:00:58.340 --> 00:01:00.820
+nj, respectively.
+
+15
+00:01:00.820 --> 00:01:05.000
+Part of the signal is also absorbed by
+the wall which depends on the type of
+
+16
+00:01:05.000 --> 00:01:07.790
+material the wall is made of.
+
+17
+00:01:07.790 --> 00:01:11.110
+The energy absorbed by the wall
+is transformed into heat,
+
+18
+00:01:11.110 --> 00:01:14.730
+which increases the wall's
+temperature very slightly.
+
+19
+00:01:14.730 --> 00:01:19.080
+This phenomenon is generally
+referred to as diffuse reflection.
+
+20
+00:01:19.080 --> 00:01:23.620
+These echoes act as virtual
+sources of the original source.
+
+21
+00:01:23.620 --> 00:01:26.380
+For example, here it's a virtual
+source which corresponds to
+
+22
+00:01:26.380 --> 00:01:30.990
+the reflection with respect to
+this wall and here is a second
+
+23
+00:01:30.990 --> 00:01:34.890
+virtual source corresponding
+to the reflection given here.
+
+24
+00:01:37.200 --> 00:01:38.680
+Echos generate themselves,
+
+25
+00:01:38.680 --> 00:01:43.090
+new echos from other walls that
+we call higher generation echos.
+
+26
+00:01:43.090 --> 00:01:47.670
+And this goes on and on until the energy
+of the signal is fully absorbed.
+
+27
+00:01:47.670 --> 00:01:52.530
+The line in green represents, for
+example, a second generation echo.
+
+28
+00:01:52.530 --> 00:01:54.280
+First echo here.
+
+29
+00:01:54.280 --> 00:01:56.710
+This point, second here.
+
+30
+00:01:56.710 --> 00:01:59.999
+And this corresponds to
+a second order in each source,
+
+31
+00:01:59.999 --> 00:02:02.080
+until it reaches the microphone.
+
+32
+00:02:03.330 --> 00:02:08.630
+We can now look at the simulation of how
+sound propagates inside a complex room.
+
+33
+00:02:08.630 --> 00:02:13.958
+This cool video was produced by one of
+our lab members, Dick Schroeder, and
+
+34
+00:02:13.958 --> 00:02:18.370
+illustrates how a pulse emitted
+at a loud speaker propagates in
+
+35
+00:02:18.370 --> 00:02:21.548
+room until all the pulse
+energy is dissipated
+
+36
+00:02:31.612 --> 00:02:36.207
+From our explanation, it seems that
+sounds propagation is a fairly complex
+
+37
+00:02:36.207 --> 00:02:41.018
+phenomenon involving the super position
+of a signal and its different echoes,
+
+38
+00:02:41.018 --> 00:02:45.450
+such that the derivation of
+a model might not be very simple.
+
+39
+00:02:45.450 --> 00:02:47.640
+Nevertheless, in room acoustics,
+
+40
+00:02:47.640 --> 00:02:51.840
+sound levels are low such that the Linear
+model is a good approximation.
+
+41
+00:02:53.080 --> 00:02:55.540
+From what we have just learned in class,
+
+42
+00:02:55.540 --> 00:03:01.190
+a linear time invarying system is entirely
+characterized by its impulse response.
+
+43
+00:03:01.190 --> 00:03:05.230
+By definition, the response of
+the system to an impulse signal.
+
+44
+00:03:06.860 --> 00:03:11.180
+We introduce by analogy the concept
+of a room impulse response.
+
+45
+00:03:11.180 --> 00:03:16.860
+So describes the audio channel between
+the sender S and the receiver R.
+
+46
+00:03:16.860 --> 00:03:21.500
+So room impulse response simply sums
+up the direct path transmission and
+
+47
+00:03:21.500 --> 00:03:23.920
+the subsequent attenuated echos.
+
+48
+00:03:25.370 --> 00:03:29.200
+Let us now look at different
+room impulse responses.
+
+49
+00:03:29.200 --> 00:03:32.130
+For example,
+the one of our lab conference room.
+
+50
+00:03:33.220 --> 00:03:37.910
+Here we plot, on the top, the first
+second of the room impulse response.
+
+51
+00:03:37.910 --> 00:03:41.960
+And we also zoom in to the first
+70 milliseconds at the bottom.
+
+52
+00:03:43.000 --> 00:03:47.020
+We observe that the early part of the room
+impulse response contains more or
+
+53
+00:03:47.020 --> 00:03:52.110
+less isolated well pronounced peaks
+that correspond to individual echos.
+
+54
+00:03:53.110 --> 00:03:56.590
+But non-flat fading,
+diffusivity of reflections and
+
+55
+00:03:56.590 --> 00:03:59.760
+the diffraction all unite
+in the latter part of
+
+56
+00:03:59.760 --> 00:04:04.940
+the room impulse response to create
+noise like exponential decay.
+
+57
+00:04:04.940 --> 00:04:07.840
+Of course,
+an equally important contribution is from
+
+58
+00:04:07.840 --> 00:04:12.640
+the fact that echoes get denser and
+denser as time passes.
+
+59
+00:04:12.640 --> 00:04:17.090
+The rate of the decay varies
+wildly between different rooms and
+
+60
+00:04:17.090 --> 00:04:21.230
+is linked to the so-called
+reverberation time or P60.
+
+61
+00:04:22.510 --> 00:04:29.220
+Which is defined as a time for reflections
+of a direct signal to decay by 60 DB.
+
+62
+00:04:29.220 --> 00:04:33.620
+It varies from around a second in
+a speech-only lecture hall to about two
+
+63
+00:04:33.620 --> 00:04:37.040
+seconds for
+a general purpose auditorium, to for
+
+64
+00:04:37.040 --> 00:04:41.350
+example, more than eight seconds in
+the Notre Dame cathedral in Paris.
+
+65
+00:04:42.870 --> 00:04:46.180
+It is a very good idea to listen
+to room impulse responses.
+
+66
+00:04:46.180 --> 00:04:47.010
+By doing that,
+
+67
+00:04:47.010 --> 00:04:51.332
+we can really appreciate the difference
+between various acoustic spaces.
+
+68
+00:04:51.332 --> 00:04:57.693
+[SOUND] Let us
+
+69
+00:04:57.693 --> 00:05:02.220
+look at another room impulse response,
+that of the Lausanne Cathedral.
+
+70
+00:05:02.220 --> 00:05:07.310
+Again, we plucked the first second of
+the room impulse response on the top and
+
+71
+00:05:07.310 --> 00:05:11.340
+we also zoom in the first 70
+milliseconds at the bottom.
+
+72
+00:05:11.340 --> 00:05:12.545
+Again, let's listen to it.
+
+73
+00:05:12.545 --> 00:05:18.894
+[SOUND].
+
+74
+00:05:20.937 --> 00:05:24.165
+Measured or
+synthetic room impulse responses can be
+
+75
+00:05:24.165 --> 00:05:29.400
+used to recreate the acoustic
+impression of the corresponding space.
+
+76
+00:05:29.400 --> 00:05:34.340
+If we convolve a room impulse response of
+a cathedral with the sound sample measured
+
+77
+00:05:34.340 --> 00:05:36.060
+in a room without echo,
+
+78
+00:05:36.060 --> 00:05:41.070
+the resulting signal will sound as
+if it was recorded in the cathedral.
+
+79
+00:05:41.070 --> 00:05:43.890
+This process is called auralization.
+
+80
+00:05:43.890 --> 00:05:44.600
+It is used, for
+
+81
+00:05:44.600 --> 00:05:50.280
+example, in virtual reality to create
+realistically sounding virtual spaces.
+
+82
+00:05:50.280 --> 00:05:53.570
+Another application example is,
+of course, in music production.
+
+83
+00:05:55.370 --> 00:05:58.370
+As you will hear,
+even this simple convulation can
+
+84
+00:05:58.370 --> 00:06:03.510
+evoke correct mental imagery about
+the space we are auralizing.
+
+85
+00:06:03.510 --> 00:06:05.560
+Consider the following sound sample.
+
+86
+00:06:07.300 --> 00:06:08.950
+>> Can one hear the shape of a room?
+
+87
+00:06:10.450 --> 00:06:11.980
+>> It does sound dry.
+
+88
+00:06:11.980 --> 00:06:13.550
+Now let's oralize it.
+
+89
+00:06:13.550 --> 00:06:16.390
+First, let's hear what
+happens when we convolve this
+
+90
+00:06:16.390 --> 00:06:20.210
+dry sound with the impulse response
+of our lab conference room.
+
+91
+00:06:20.210 --> 00:06:23.140
+>> Can one hear the shape of a room?
+
+92
+00:06:24.330 --> 00:06:28.810
+Now let's do all the auralization with
+the cathedral's room impulse response.
+
+93
+00:06:28.810 --> 00:06:37.990
+>> Can one hear the shape of a room?
+
+94
+00:06:37.990 --> 00:06:42.019
+>> An important practical question is
+how to measure room impulse responses.
+
+95
+00:06:43.170 --> 00:06:48.020
+As they are response to an impulse,
+the first idea is to simply use
+
+96
+00:06:48.020 --> 00:06:52.370
+an impulsive source of sound and record
+the room response with a microphone.
+
+97
+00:06:53.430 --> 00:06:56.870
+But, there are numerous
+drawbacks to this simple idea.
+
+98
+00:06:56.870 --> 00:07:02.370
+Room impulse responses is
+the response to an idealized post,
+
+99
+00:07:02.370 --> 00:07:04.460
+a direct delta function.
+
+100
+00:07:04.460 --> 00:07:09.160
+Realistic impulsive sources are only
+approximations of the direct, and
+
+101
+00:07:09.160 --> 00:07:10.390
+usually not very good ones.
+
+102
+00:07:11.940 --> 00:07:16.570
+Even if we might think that popping
+a balloon or firing a starter pistol
+
+103
+00:07:16.570 --> 00:07:19.920
+generates a very good impulse,
+In reality, this is not true.
+
+104
+00:07:21.300 --> 00:07:23.630
+Repeatability is also an issue.
+
+105
+00:07:23.630 --> 00:07:26.790
+Popping different balloons
+generates different sounds.
+
+106
+00:07:26.790 --> 00:07:31.510
+Another way of measuring a room impulse
+response consists of playing a known
+
+107
+00:07:31.510 --> 00:07:35.810
+sound through the loudspeaker and
+then deconvolve it in the spectral domain.
+
+108
+00:07:37.230 --> 00:07:41.250
+In the picture you see how we
+measured the room impulse response of
+
+109
+00:07:41.250 --> 00:07:43.270
+the Lausanne Cathedral.
+
+110
+00:07:43.270 --> 00:07:48.140
+We placed a special loudspeaker,
+a so-called omnidirectional loudspeaker in
+
+111
+00:07:48.140 --> 00:07:53.498
+the center of the picture and we played
+actually what is known as a sine sweep,
+
+112
+00:07:53.498 --> 00:07:57.690
+which is sinusoid of increasing frequency.
+
+113
+00:07:57.690 --> 00:08:01.970
+It resembles a little bit of sounds
+that backs in it when they actually do
+
+114
+00:08:01.970 --> 00:08:03.960
+the process of echo location.
+
+115
+00:08:05.350 --> 00:08:08.060
+But, let's not get too much
+into the details here and
+
+116
+00:08:08.060 --> 00:08:10.680
+come back into our main
+question of interest.
+
+117
+00:08:10.680 --> 00:08:13.340
+Can one hear the shape of the room?
+
+118
+00:08:13.340 --> 00:08:18.620
+The question is whether we can reconstruct
+the shape of the room using only echos.
+
+119
+00:08:18.620 --> 00:08:21.930
+Consider the following
+experimental set up.
+
+120
+00:08:21.930 --> 00:08:24.230
+We put some microphones into a room.
+
+121
+00:08:24.230 --> 00:08:28.240
+We would like to reconstruct the room's
+shape from what the microphones record
+
+122
+00:08:28.240 --> 00:08:32.810
+when we clap our hands, that is from
+the recorded impulse responses.
+
+123
+00:08:34.160 --> 00:08:38.050
+Room impulse responses contain
+peaks that correspond to echoes and
+
+124
+00:08:38.050 --> 00:08:39.919
+echoes are muddled by image sources.
+
+125
+00:08:41.060 --> 00:08:43.240
+But if the room is not too complicated,
+
+126
+00:08:43.240 --> 00:08:47.280
+locations of image sources tell
+us how the room looks like.
+
+127
+00:08:47.280 --> 00:08:51.430
+So we can rephrase the room
+reconstruction problem into a problem of
+
+128
+00:08:51.430 --> 00:08:54.350
+localizing a certain
+number of image sources.
+
+129
+00:08:55.580 --> 00:09:00.140
+At the next level of abstraction we
+forget that they are image sources.
+
+130
+00:09:00.140 --> 00:09:05.730
+And we just attack a problem of localizing
+multiple sources and meeting impulses.
+
+131
+00:09:05.730 --> 00:09:09.620
+In our lab we developed a theory for
+reconstructing the shape of
+
+132
+00:09:09.620 --> 00:09:14.620
+a room from impulse responses and
+we ran some experiments to test it.
+
+133
+00:09:14.620 --> 00:09:18.470
+The first round of experiments
+was run in our conference room,
+
+134
+00:09:18.470 --> 00:09:20.219
+mentioned already multiple times.
+
+135
+00:09:21.380 --> 00:09:25.630
+So you see Schon in the left
+part of the image and
+
+136
+00:09:25.630 --> 00:09:28.530
+you see the model of
+the room at the bottom.
+
+137
+00:09:28.530 --> 00:09:30.250
+We built the wall out of tables so
+
+138
+00:09:30.250 --> 00:09:34.090
+we could move around the room and
+change its geometry.
+
+139
+00:09:34.090 --> 00:09:38.210
+We then added some microphones and
+loud speakers and we're ready to go.
+
+140
+00:09:40.630 --> 00:09:43.920
+Here are the results for
+two different room configurations.
+
+141
+00:09:43.920 --> 00:09:45.240
+In both experiments,
+
+142
+00:09:45.240 --> 00:09:51.420
+all dimensions of the room were estimated
+to high accuracy using five microphones.
+
+143
+00:09:51.420 --> 00:09:56.770
+For example, the height of the ceiling is
+estimated within an error of only one or
+
+144
+00:09:56.770 --> 00:09:58.370
+two centimeters.
+
+145
+00:09:58.370 --> 00:10:02.250
+Encouraged by the success of this
+experiment, we went straight for
+
+146
+00:10:02.250 --> 00:10:03.360
+the Major League.
+
+147
+00:10:03.360 --> 00:10:06.450
+We did experiments in
+the Lausanne Cathedral.
+
+148
+00:10:06.450 --> 00:10:10.580
+Of course, we didn't really hope to
+reconstruct the detailed geometry of
+
+149
+00:10:10.580 --> 00:10:11.720
+the cathedral.
+
+150
+00:10:11.720 --> 00:10:16.090
+That's because cathedrals with their
+curved surfaces, domes, decorations and
+
+151
+00:10:16.090 --> 00:10:20.520
+columns are much more complicated than
+the rooms we developed our algorithm for.
+
+152
+00:10:21.690 --> 00:10:26.630
+Nevertheless, we were able to reconstruct
+the main dimensions of an alcove at
+
+153
+00:10:26.630 --> 00:10:29.680
+the side of the cathedral
+with quite good accuracy.

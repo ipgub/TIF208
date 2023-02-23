@@ -1,0 +1,383 @@
+WEBVTT
+
+1
+00:00:00.650 --> 00:00:02.670
+Now, there's nothing new what we saw so
+far.
+
+2
+00:00:02.670 --> 00:00:05.510
+We've just rearranged
+terms in finite sums.
+
+3
+00:00:05.510 --> 00:00:09.640
+But here comes the trick that
+defines the leaky integrator filter.
+
+4
+00:00:09.640 --> 00:00:14.350
+When M is very large,
+we assume that the average over M-1 or
+
+5
+00:00:14.350 --> 00:00:17.470
+over M point is going to
+be pretty much the same.
+
+6
+00:00:17.470 --> 00:00:22.760
+Not much is going to change if we add a
+single data point to a very long average.
+
+7
+00:00:22.760 --> 00:00:25.200
+And also, when M is very large, lambda,
+
+8
+00:00:25.200 --> 00:00:29.250
+which is defined as M -1 over M,
+is going to be very close to 1.
+
+9
+00:00:29.250 --> 00:00:33.810
+So, we can rewrite the previous
+equation as, current estimate for
+
+10
+00:00:33.810 --> 00:00:38.580
+the moving average is equal to lambda
+times the previous estimate for
+
+11
+00:00:38.580 --> 00:00:43.390
+a moving average + 1-
+lambda x the current input.
+
+12
+00:00:43.390 --> 00:00:46.760
+And this defines a filter that we
+can use to process our signal.
+
+13
+00:00:46.760 --> 00:00:51.520
+Now the filter is recursive because
+we are using output values,
+
+14
+00:00:51.520 --> 00:00:56.300
+previous output values to compute
+the current value of the output.
+
+15
+00:00:56.300 --> 00:01:00.040
+So there is a feedback path that goes
+from the output back into the filter.
+
+16
+00:01:01.040 --> 00:01:04.070
+Before we even try to analyze
+this let's see if it works.
+
+17
+00:01:04.070 --> 00:01:07.470
+So we take our smooth signal
+corrupted by noise and
+
+18
+00:01:07.470 --> 00:01:11.890
+we filter it with a leaky integrator for
+varying values of lambda.
+
+19
+00:01:11.890 --> 00:01:16.010
+So if we start with lambda rather small
+we don't see really see much happening.
+
+20
+00:01:16.010 --> 00:01:18.830
+But as we increase the value
+of lambda towards one,
+
+21
+00:01:18.830 --> 00:01:22.510
+which is really the operating assumption
+for the derivation of the filter anyway,
+
+22
+00:01:22.510 --> 00:01:26.420
+we see that we start to smooth
+the signal as we expected.
+
+23
+00:01:26.420 --> 00:01:31.330
+And when lambda is very close to one, the
+smoothing power is comparable to that of
+
+24
+00:01:31.330 --> 00:01:34.990
+a moving average filter with
+a very high number of tabs.
+
+25
+00:01:34.990 --> 00:01:40.060
+But now the difference is that each output
+value only requires three operations.
+
+26
+00:01:40.060 --> 00:01:45.612
+Because remember,
+the value is simply 1 multiplication and
+
+27
+00:01:45.612 --> 00:01:51.570
+then there's going to be another
+multiplication and 1 sum.
+
+28
+00:01:51.570 --> 00:01:54.020
+And this is independent
+of the value of lambda,
+
+29
+00:01:54.020 --> 00:01:57.610
+so highest motion power at a fixed price.
+
+30
+00:01:57.610 --> 00:02:00.520
+Of course the natural question
+when we have a filter is what
+
+31
+00:02:00.520 --> 00:02:02.440
+the impulse response is going to be.
+
+32
+00:02:02.440 --> 00:02:06.370
+And to compute the impulse response of
+the leaky integrator, all we need to do is
+
+33
+00:02:06.370 --> 00:02:11.290
+plug the delta function into the recursive
+equation and see what happens.
+
+34
+00:02:11.290 --> 00:02:16.670
+So when n is less than 0,
+since the delta function is 0 from
+
+35
+00:02:16.670 --> 00:02:22.140
+minus infinity to 0, nothing non-0 has
+ever happened inside this equation.
+
+36
+00:02:22.140 --> 00:02:25.530
+And so it's very safe to assume
+that the output will be 0 for
+
+37
+00:02:25.530 --> 00:02:28.200
+all values of n less than zero.
+
+38
+00:02:28.200 --> 00:02:32.310
+Things start to happen
+when n reaches zero at
+
+39
+00:02:32.310 --> 00:02:36.660
+which point the delta function kicks and
+assumes a value of one.
+
+40
+00:02:36.660 --> 00:02:41.590
+So if we compute the value of the output
+for n = to 0, we have lambda times
+
+41
+00:02:41.590 --> 00:02:45.810
+the previous value of the output,
+which we know to be zero, so this is zero.
+
+42
+00:02:45.810 --> 00:02:50.840
+Plus 1 minus lambda times the value
+of delta and 0, which is 1.
+
+43
+00:02:50.840 --> 00:02:52.860
+And so the output would be 1 minus lambda.
+
+44
+00:02:52.860 --> 00:02:59.860
+At the next step y of 1 is equal to lambda
+times the previous value of the output,
+
+45
+00:02:59.860 --> 00:03:03.920
+which now is not known as 0,
+it's 1 minus lambda as we computed before.
+
+46
+00:03:03.920 --> 00:03:09.690
+Plus 1 minus lambda times delta 1, which
+we know to be 0 and so this is cancelled.
+
+47
+00:03:09.690 --> 00:03:12.840
+And the final output is lambda
+times 1 when it's lambda.
+
+48
+00:03:12.840 --> 00:03:17.850
+At the next step, once again the recursive
+equation kicks in and we have lambda
+
+49
+00:03:17.850 --> 00:03:23.360
+times the previous value which we know
+to be lambda times 1 when it's lambda.
+
+50
+00:03:23.360 --> 00:03:25.790
+Plus 1 minus lambda delta of 2.
+
+51
+00:03:25.790 --> 00:03:28.020
+But again delta from now
+on is going to be 0, so
+
+52
+00:03:28.020 --> 00:03:29.610
+this term we don't even have to look at.
+
+53
+00:03:29.610 --> 00:03:32.920
+And so you will have lambda
+square times 1 minus lambda.
+
+54
+00:03:34.100 --> 00:03:36.570
+Next step is going to be the same and
+
+55
+00:03:36.570 --> 00:03:39.320
+you have pretty much understood
+what's going on here.
+
+56
+00:03:39.320 --> 00:03:44.960
+If we plot the impulse response we have
+an exponentially decaying function.
+
+57
+00:03:44.960 --> 00:03:48.330
+Where the exponential base is lambda and
+
+58
+00:03:48.330 --> 00:03:53.700
+the whole curve is weighted by
+one minus lambda and is of course
+
+59
+00:03:53.700 --> 00:03:58.260
+multiplied by uni step because
+everything is zero for n less than zero.
+
+60
+00:03:58.260 --> 00:04:01.590
+You might wonder why we call
+this filter a leaky integrator.
+
+61
+00:04:01.590 --> 00:04:06.300
+The reason is because if you consider for
+instance this very simple sum.
+
+62
+00:04:06.300 --> 00:04:10.710
+It's the sum of all input samples
+from minus infinity to current time.
+
+63
+00:04:10.710 --> 00:04:13.850
+This is really the discrete time
+approximation to an integral
+
+64
+00:04:13.850 --> 00:04:17.700
+because you're really accumulating
+all pass values up to now.
+
+65
+00:04:17.700 --> 00:04:21.280
+And we can rewrite this
+summation here as such.
+
+66
+00:04:21.280 --> 00:04:26.850
+So at each step we get what we have
+accumulated up to the previous step and
+
+67
+00:04:26.850 --> 00:04:28.300
+we sum the current input.
+
+68
+00:04:28.300 --> 00:04:31.350
+So you see it's very
+close to the equation for
+
+69
+00:04:31.350 --> 00:04:35.760
+the leaky integrator, except in the leaky
+integrator what we do is the following.
+
+70
+00:04:35.760 --> 00:04:42.340
+We scale the previous accumulated
+value by lambda, which means we,
+
+71
+00:04:42.340 --> 00:04:47.030
+remember, lambda is close to 1, so
+that means we keep pretty much all of what
+
+72
+00:04:47.030 --> 00:04:52.320
+we've accumulated before, but we forget
+a little bit, we leak a part of it.
+
+73
+00:04:52.320 --> 00:04:57.850
+If lambda is equal to 0.9, then that means
+that 10% of what we accumulated is lost.
+
+74
+00:04:57.850 --> 00:05:03.420
+And we've replaced what we've
+lost by a fraction of the input,
+
+75
+00:05:03.420 --> 00:05:05.000
+and this fraction is 1- lambda.
+
+76
+00:05:05.000 --> 00:05:07.530
+So what we've lost from the accumulator,
+
+77
+00:05:07.530 --> 00:05:11.860
+we've replaced with equal
+percentage of the input.
+
+78
+00:05:11.860 --> 00:05:16.605
+The idea is that by picking lambda < 1,
+we are forgetting, we're leaking the past,
+
+79
+00:05:16.605 --> 00:05:18.880
+and the accumulation will never blow up.

@@ -1,0 +1,444 @@
+WEBVTT
+
+1
+00:00:00.330 --> 00:00:04.190
+The impulse response is the output
+of a filter when the input
+
+2
+00:00:04.190 --> 00:00:05.380
+is the delta function.
+
+3
+00:00:05.380 --> 00:00:09.180
+A fundamental result states that
+the impulse response fully characterizes
+
+4
+00:00:09.180 --> 00:00:11.180
+the behavior of an LTI system.
+
+5
+00:00:11.180 --> 00:00:12.150
+Let's see why that is so.
+
+6
+00:00:13.160 --> 00:00:18.310
+Assume that we have a filter and we can
+measure its impulse response by inputting
+
+7
+00:00:18.310 --> 00:00:22.190
+a delta function, and it turns out that
+the impulse response is an exponentially
+
+8
+00:00:22.190 --> 00:00:28.080
+decaying sequence, h of n equal to alpha
+to the power of n, times the unit step.
+
+9
+00:00:28.080 --> 00:00:33.470
+Now, we want to use the same filter to
+filter an arbitrary sequence x of n that,
+
+10
+00:00:33.470 --> 00:00:38.855
+in this example, is simply a three
+point sequence that is equal to 2 for
+
+11
+00:00:38.855 --> 00:00:44.820
+n=0, is equal to 3 for n=1, and is equal
+to 1 for n=2, and is 0 everywhere else.
+
+12
+00:00:46.440 --> 00:00:50.239
+So, we can always write our
+sequence as a linear combination
+
+13
+00:00:50.239 --> 00:00:52.036
+of delayed delta function.
+
+14
+00:00:52.036 --> 00:00:55.973
+So, in particular for our example,
+
+15
+00:00:55.973 --> 00:01:04.484
+x of n is equal to 2 times delta of n +
+3 times delta of n-1 plus delta of n-2.
+
+16
+00:01:04.484 --> 00:01:08.890
+Now, we know the impulse response,
+so the response to the delta.
+
+17
+00:01:08.890 --> 00:01:12.210
+And by exploiting linearity and
+time-invariance,
+
+18
+00:01:12.210 --> 00:01:14.670
+we can compute the response
+
+19
+00:01:14.670 --> 00:01:19.870
+of the system to the input sequence x[n]
+just by knowing the impulse response.
+
+20
+00:01:19.870 --> 00:01:24.000
+Indeed, we apply the linear filter to
+the linear combination of deltas and
+
+21
+00:01:24.000 --> 00:01:26.840
+by exploiting linearity first,
+
+22
+00:01:26.840 --> 00:01:32.390
+we can split the operation of the filter
+over the three components of the signal.
+
+23
+00:01:32.390 --> 00:01:34.709
+And by exploiting time and variance,
+
+24
+00:01:34.709 --> 00:01:39.935
+we just sum together appropriately scaled
+version of the impulse response delayed.
+
+25
+00:01:39.935 --> 00:01:44.177
+We can look at this graphically and
+we see that,
+
+26
+00:01:44.177 --> 00:01:51.193
+when we filter the first component,
+2 times delta of n, we get 2 times h of n.
+
+27
+00:01:51.193 --> 00:01:56.068
+The second component of the signal
+is 3 times delta of n minus 1, and
+
+28
+00:01:56.068 --> 00:02:01.630
+this gives rise to 3h of n minus 1, which
+we plot on top of the other response.
+
+29
+00:02:02.730 --> 00:02:07.580
+And finally, the last component is
+simply delta of n minus 2 which filter
+
+30
+00:02:07.580 --> 00:02:09.370
+gives h of n minus 2.
+
+31
+00:02:09.370 --> 00:02:13.770
+So, now we have the three components,
+we sum them together in linearity, and
+
+32
+00:02:13.770 --> 00:02:18.330
+we have obtained the response of
+the system to our arbitrary input.
+
+33
+00:02:18.330 --> 00:02:23.540
+In general, remember that we can always
+write x of n, a generic discrete time
+
+34
+00:02:23.540 --> 00:02:28.620
+sequence, as the sum for k that goes
+from minus infinity to plus infinity of
+
+35
+00:02:28.620 --> 00:02:34.270
+a sequence of time delayed deltas scaled
+by the values of the sequence itself.
+
+36
+00:02:35.270 --> 00:02:38.880
+So, this probably seemed like
+a futile exercise in module 3.2,
+
+37
+00:02:38.880 --> 00:02:43.770
+but now we see the usefulness of this
+representation because, by linearity and
+
+38
+00:02:43.770 --> 00:02:48.550
+time invariance, we can express the output
+as the sum from k that goes from minus
+
+39
+00:02:48.550 --> 00:02:53.520
+infinity to plus infinity of
+the values of the sequence times
+
+40
+00:02:53.520 --> 00:02:58.570
+the impulse response,
+time reversed and delayed by n.
+
+41
+00:03:00.980 --> 00:03:05.500
+This sum here is so important in signal
+processing that it gets its own name and
+
+42
+00:03:05.500 --> 00:03:10.130
+it's called the convolution
+of sequences x[n] and h[n].
+
+43
+00:03:10.130 --> 00:03:14.130
+The convolution which represents
+the output of a filter given
+
+44
+00:03:14.130 --> 00:03:18.327
+its impulse response and
+an arbitrary input sequence x[n ],
+
+45
+00:03:18.327 --> 00:03:23.260
+is actually an algorithmic formula
+to compute the output of the filter.
+
+46
+00:03:23.260 --> 00:03:28.890
+The ingredients are a input sequence
+x[m] and a second sequence, h[m].
+
+47
+00:03:28.890 --> 00:03:31.460
+And the recipe involves
+the following steps.
+
+48
+00:03:31.460 --> 00:03:34.180
+First, we time-reverse
+the impulse response.
+
+49
+00:03:34.180 --> 00:03:37.860
+So, we flipped it in time,
+if it goes like this.
+
+50
+00:03:37.860 --> 00:03:40.925
+Then, it will look like this.
+
+51
+00:03:40.925 --> 00:03:44.220
+And at each step,
+from minus infinity to plus infinity,
+
+52
+00:03:44.220 --> 00:03:49.580
+we center the time-reversed impulse
+response in the current sample n,
+
+53
+00:03:49.580 --> 00:03:53.260
+so we shift the time reversed
+equal response by minus n.
+
+54
+00:03:54.320 --> 00:03:57.980
+And then we compute the inner
+product between this shifted replica
+
+55
+00:03:57.980 --> 00:04:00.930
+of the impulse response and
+the input sequence.
+
+56
+00:04:02.090 --> 00:04:07.360
+Let's look at this graphically using this
+the same examples that we used before.
+
+57
+00:04:07.360 --> 00:04:11.040
+So, we have an impulse response which
+is a decay in exponential sequence, and
+
+58
+00:04:11.040 --> 00:04:14.170
+we have a three point
+simple input sequence.
+
+59
+00:04:14.170 --> 00:04:18.800
+We plot these three actors
+on a chart like this.
+
+60
+00:04:18.800 --> 00:04:22.410
+We have the input sequence on top.
+
+61
+00:04:22.410 --> 00:04:27.630
+We have the time reversed and the delay
+impulse response on the second panel.
+
+62
+00:04:27.630 --> 00:04:31.030
+And here, we have the inner product
+between these two sequences.
+
+63
+00:04:32.420 --> 00:04:37.270
+So, at each step, as I said, we center
+the time-reversed impulse response on
+
+64
+00:04:37.270 --> 00:04:41.790
+the current sample, so we start as -4 and
+we compute the inner product.
+
+65
+00:04:41.790 --> 00:04:46.812
+Since the impulse signal in our example
+is now 0, only between 0 and 2,
+
+66
+00:04:46.812 --> 00:04:52.254
+up to 0, fundamentally, nothing happens
+and the inner product is always 0.
+
+67
+00:04:52.254 --> 00:04:57.027
+And we can see that it was 0 for
+values before -4,
+
+68
+00:04:57.027 --> 00:05:01.138
+and it will continue to
+be 0 until we hit 0.
+
+69
+00:05:01.138 --> 00:05:05.204
+At which point, we start to have
+an overlap between these two sequences,
+
+70
+00:05:05.204 --> 00:05:09.728
+and the inner product will not be 0, in
+particular, on the first step, it will be
+
+71
+00:05:09.728 --> 00:05:14.080
+equal to this sample which is equal to 1
+times this sample which is equal to 2.
+
+72
+00:05:14.080 --> 00:05:15.784
+So, the sum will be equal to 2.
+
+73
+00:05:17.560 --> 00:05:19.160
+We advance another step and
+
+74
+00:05:19.160 --> 00:05:24.380
+then we see that the overlap involves
+two points now, here and here.
+
+75
+00:05:24.380 --> 00:05:27.100
+And we compute their products and
+their sum and
+
+76
+00:05:27.100 --> 00:05:29.520
+we get the second point
+in our output sequence.
+
+77
+00:05:30.650 --> 00:05:35.110
+Third step, we'll finally involve all
+three points from the input sequence.
+
+78
+00:05:35.110 --> 00:05:38.900
+We compute the product with
+the impulse response and the sum and
+
+79
+00:05:38.900 --> 00:05:40.390
+we get our third output sample.
+
+80
+00:05:40.390 --> 00:05:43.060
+And the process continues like so.
+
+81
+00:05:43.060 --> 00:05:48.160
+Now, since the impulse response
+is an infinite sequence, one side
+
+82
+00:05:48.160 --> 00:05:53.240
+of the infinite sequence, from now on, the
+inner product will always be non-zero and
+
+83
+00:05:53.240 --> 00:06:00.542
+will have an output that will continue
+to be non-zero forever and ever.
+
+84
+00:06:02.920 --> 00:06:05.210
+Finally, a few words on the convolution.
+
+85
+00:06:05.210 --> 00:06:07.020
+The convolution is of course linear and
+
+86
+00:06:07.020 --> 00:06:11.300
+time invariant because it describes
+a linear and time invariant operation.
+
+87
+00:06:11.300 --> 00:06:18.030
+It is also commutative which means that
+if you have two filters in cascade,
+
+88
+00:06:18.030 --> 00:06:23.970
+you can safely invert their sequence and
+the result will not change.
+
+89
+00:06:25.280 --> 00:06:28.099
+For absolutely and
+square summable sequences,
+
+90
+00:06:28.099 --> 00:06:33.117
+the convolution is also associative, which
+means that if you have a cascaded system,
+
+91
+00:06:33.117 --> 00:06:35.867
+you can lump their effect
+into a single filter,
+
+92
+00:06:35.867 --> 00:06:40.632
+whose impulse response is the convolution
+of the individual impulse responses.

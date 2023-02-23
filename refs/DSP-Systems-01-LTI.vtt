@@ -1,0 +1,284 @@
+WEBVTT
+
+1
+00:00:00.460 --> 00:00:04.000
+In general when we talk about signal
+processing, we imagine a situation where
+
+2
+00:00:04.000 --> 00:00:09.240
+we have an input signal, x of n,
+an output signal, y of n, produceD
+
+3
+00:00:09.240 --> 00:00:14.350
+by some sort of black box here that
+manipulates the input into the output.
+
+4
+00:00:14.350 --> 00:00:18.000
+We can write the relationship
+mathematically Like so
+
+5
+00:00:18.000 --> 00:00:24.320
+where y then is equal to some operator
+H that is applied to the input x of n.
+
+6
+00:00:24.320 --> 00:00:27.480
+Already when we draw this block diagram
+
+7
+00:00:27.480 --> 00:00:31.830
+we are making assumptions on
+the structure of the process in device
+
+8
+00:00:31.830 --> 00:00:36.140
+in the sense that we consider a system
+with a single input and a single output.
+
+9
+00:00:36.140 --> 00:00:39.570
+We could imagine system with
+multiple inputs or multiple outputs.
+
+10
+00:00:39.570 --> 00:00:42.860
+But even with these limitations,
+the possibilities for
+
+11
+00:00:42.860 --> 00:00:46.440
+what goes inside this box here
+are pretty much limitless.
+
+12
+00:00:46.440 --> 00:00:50.500
+And unless we impose some structure on the
+kind of processing that happens in this
+
+13
+00:00:50.500 --> 00:00:54.460
+block, we will not be able to say
+anything particularly meaningful
+
+14
+00:00:54.460 --> 00:00:56.220
+about the filtering operation.
+
+15
+00:00:56.220 --> 00:01:00.910
+So the first requirement that we
+imposed on a filter is linearity.
+
+16
+00:01:00.910 --> 00:01:07.060
+Linearity means that if we have two
+inputs and we take a linear combination
+
+17
+00:01:07.060 --> 00:01:12.990
+of said inputs while the output is
+a linear combination of outputs.
+
+18
+00:01:12.990 --> 00:01:17.410
+That could have been obtained by
+filtering each sequence independently.
+
+19
+00:01:19.070 --> 00:01:21.740
+This is actually a very
+reasonable requirement, for
+
+20
+00:01:21.740 --> 00:01:25.820
+instance take a situation where you
+processing device is an amplifier and
+
+21
+00:01:25.820 --> 00:01:28.200
+you connect a guitar to your amplifier.
+
+22
+00:01:28.200 --> 00:01:32.160
+Now if you play one note and
+then you play the same note louder,
+
+23
+00:01:32.160 --> 00:01:35.285
+you expect the amplifier to
+produce just a louder note.
+
+24
+00:01:35.285 --> 00:01:39.401
+[SOUND] Similarly,
+if you play one note and
+
+25
+00:01:39.401 --> 00:01:45.162
+then another note, and
+then you play two notes together,
+
+26
+00:01:45.162 --> 00:01:49.985
+you expect the amplifier
+to amplify the sum of two
+
+27
+00:01:49.985 --> 00:01:55.292
+notes as the sum of two
+independent amplifications.
+
+28
+00:01:55.292 --> 00:02:02.156
+[MUSIC]
+
+29
+00:02:02.156 --> 00:02:05.960
+Now note that this is not necessarily
+the case in all situations.
+
+30
+00:02:05.960 --> 00:02:11.030
+For instance, in some kinds of rock music
+you want to introduce some distortion and
+
+31
+00:02:11.030 --> 00:02:12.910
+so you add a fuzz box.
+
+32
+00:02:12.910 --> 00:02:17.398
+That will distort the signal non-linearly
+to create very interesting effects but
+
+33
+00:02:17.398 --> 00:02:20.872
+that belong to a completely
+different category of processing.
+
+34
+00:02:20.872 --> 00:02:30.204
+[MUSIC]
+
+35
+00:02:30.204 --> 00:02:35.150
+The second requirement that we impose on
+the processing device is time invariance.
+
+36
+00:02:35.150 --> 00:02:39.370
+Time invariance, in layman terms,
+simply means that the system will behave
+
+37
+00:02:39.370 --> 00:02:42.690
+exactly in the same way independently
+of when it's switched on.
+
+38
+00:02:43.720 --> 00:02:49.235
+Mathematically, we can say that if y[n] is
+the output of the system when the input is
+
+39
+00:02:49.235 --> 00:02:54.490
+x[n], well if we put a delayed version
+of the input inside the system,
+
+40
+00:02:54.490 --> 00:03:00.680
+x of n minus n-0, what we get is
+the same output delayed by n-0.
+
+41
+00:03:00.680 --> 00:03:04.120
+And, again, we can use a guitar
+amplifier as an example.
+
+42
+00:03:04.120 --> 00:03:07.720
+If I turn it on today, well I expect it to
+
+43
+00:03:07.720 --> 00:03:11.930
+amplify the notes exactly in the same
+way that it amplified them yesterday.
+
+44
+00:03:11.930 --> 00:03:15.550
+But again,
+some types of guitar effects exploit
+
+45
+00:03:15.550 --> 00:03:19.950
+time variance to introduce a different
+flavor to the music that's being played.
+
+46
+00:03:19.950 --> 00:03:23.394
+For instance, the wah pedal
+is a time varying effect that
+
+47
+00:03:23.394 --> 00:03:27.723
+will change the envelope of a sound
+In ways that are not time invariant.
+
+48
+00:03:27.723 --> 00:03:37.723
+[MUSIC]
+
+49
+00:03:39.655 --> 00:03:44.190
+So what are the ingredients that go
+into a linear time-invariant system?
+
+50
+00:03:44.190 --> 00:03:46.500
+Well, linear ingredients.
+
+51
+00:03:46.500 --> 00:03:50.750
+Addition, which is a linear operation,
+scalar multiplication,
+
+52
+00:03:50.750 --> 00:03:53.360
+another linear operation, and delays.
+
+53
+00:03:54.670 --> 00:03:59.320
+Another requirement that is not mandatory,
+but makes a lot of sense if you want to
+
+54
+00:03:59.320 --> 00:04:04.070
+use linear time variance system in your
+real time, is that the system be cause
+
+55
+00:04:04.070 --> 00:04:08.250
+by that we mean that the system
+can only have access to input and
+
+56
+00:04:08.250 --> 00:04:10.600
+output values from the past.
+
+57
+00:04:10.600 --> 00:04:14.930
+In that case, you can write the input
+output relationship as follows.
+
+58
+00:04:14.930 --> 00:04:20.420
+The output is a linear functional
+of past values of the input and
+
+59
+00:04:20.420 --> 00:04:21.680
+past values of the output.
