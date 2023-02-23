@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DSP
 
 Notes on DSP using python.
@@ -254,3 +255,6 @@ plt.show()
 ```
 
 However, from [another page](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.dimpulse.html), there is scipy's signal implementation of discrete time system's impulse respons
+=======
+# TIF311
+>>>>>>> 3f91be07897e89da897b65b61e28e281f445b4ba
