@@ -1,6 +1,6 @@
-# DSP
+# TIF208 DSP - Informatics / Universitas Bakrie
 
-Notes on DSP using python.
+Additional notes and resources on DSP using python.
 
 
 ## Packages
