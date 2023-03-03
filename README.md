@@ -7,11 +7,11 @@ Notes on DSP using python.
 
 There are two competing packages currently found for DSP using python
 
-- ThinkDSP
+- scikit-dsp-comm
 
-    + Written by [Mark Wickert](http://www.eas.uccs.edu/~mwickert/). Modul can be downloaded/cloned from https://github.com/mwickert/scikit-dsp-comm.
+    + Written by [Mark Wickert](http://ece.uccs.edu/~mwickert/). Modul can be downloaded/cloned from https://github.com/mwickert/scikit-dsp-comm.
 
-    + Web: http://www.eas.uccs.edu/~mwickert/ece5650/
+    + Web: http://ece.uccs.edu/~mwickert/
 
     + Written lecture materials: only partially available, as some of course materials were password protected.
 
@@ -26,9 +26,9 @@ There are two competing packages currently found for DSP using python
 
     + Video: Available through the website. However, not all of them have been checked for its availability. The video are longer in duration (like 2 hours).
 
-        - http://www.eas.uccs.edu/~mwickert/ece5650/lectures/5650_Lect2_f19.mp4.mp4
+        - http://ece.uccs.edu/~mwickert/ece5650/lectures/5650_Lect1_f22.mp4
 
-- scikit-dsp-comm
+- ThinkDSP
 
     + Written by: Allen Downey
 
@@ -38,6 +38,5 @@ There are two competing packages currently found for DSP using python
 
     + Web: http://greenteapress.com/thinkdsp/thinkdsp.pdf
 
-    + Video:
 
 
