@@ -1,0 +1,1111 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800) (preloaded format=pdflatex 2018.9.13)  4 MAR 2019 13:56
+entering extended mode
+**./DSP_Lab_Assignment.tex
+(DSP_Lab_Assignment.tex
+LaTeX2e <2018-04-01> patch level 5
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base
+\report.cls"
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base
+\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\grap
+hics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\grap
+hics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\grap
+hics\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\grap
+hics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\grap
+hics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\grap
+hics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\matlab-prettifier\matlab-prettifier.sty
+"
+Package: matlab-prettifier 2014/06/19 v0.3 A package for prettyprinting Matlab 
+source code
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base
+\textcomp.sty"
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base
+\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base
+\ts1enc.dfu"
+File: ts1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\grap
+hics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count89
+\lst@gtempboxa=\box26
+\lst@token=\toks15
+\lst@length=\count90
+\lst@currlwidth=\dimen105
+\lst@column=\count91
+\lst@pos=\count92
+\lst@lostspace=\dimen106
+\lst@width=\dimen107
+\lst@newlines=\count93
+\lst@lineno=\count94
+\lst@maxwidth=\dimen108
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count95
+\lst@skipnumbers=\count96
+\lst@framebox=\box27
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2018/09/02 1.7 listings configuration
+))
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
+\netBracketCount@mlpr=\count97
+\blkLvl@mlpr=\count98
+\blkLvlAtClassdef@mlpr=\count99
+\emHeight@mlpr=\skip43
+\jayDepth@mlpr=\skip44
+\sectionRuleOffset@mlpr=\skip45
+\toks@mlpr=\toks16
+)
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base
+\inputenc.sty"
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ba
+bel\babel.sty"
+Package: babel 2018/06/05 3.22 The Babel package
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ba
+bel\switch.def"
+File: switch.def 2018/06/05 3.22 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babe
+l-english\english.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ba
+bel\babel.def"
+File: babel.def 2018/06/05 3.22 Babel common definitions
+\babel@savecnt=\count100
+\U@D=\dimen109
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ba
+bel\txtbabel.def")
+\bbl@dirlevel=\count101
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hype
+rref\hyperref.sty"
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ob
+erdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ob
+erdiek\hobsub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\if
+xetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ober
+diek\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ober
+diek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen110
+\Hy@linkcounter=\count102
+\Hy@pagecounter=\count103
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hype
+rref\pd1enc.def"
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count104
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00mi
+ktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count105
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen111
+\Fld@menulength=\count106
+\Field@Width=\dimen112
+\Fld@charsize=\dimen113
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring ON on input line 6387.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count107
+\c@Item=\count108
+\c@Hfootnote=\count109
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hype
+rref\hpdftex.def"
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count110
+\c@bookmark@seq@number=\count111
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ober
+diek\rerunfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip46
+)
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geom
+etry\geometry.sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+\Gm@cnth=\count112
+\Gm@cntv=\count113
+\c@Gm@tempcnt=\count114
+\Gm@bindingoffset=\dimen114
+\Gm@wd@mp=\dimen115
+\Gm@odd@mp=\dimen116
+\Gm@even@mp=\dimen117
+\Gm@layoutwidth=\dimen118
+\Gm@layoutheight=\dimen119
+\Gm@layouthoffset=\dimen120
+\Gm@layoutvoffset=\dimen121
+\Gm@dimlist=\toks19
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geom
+etry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\stackengine\stackengine.sty"
+Package: stackengine 2017/02/13 v4.01\ Stacking text and objects in convenient 
+ways
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count115
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listofitems\listofitems.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\listofitems\listofitems.tex"
+\loi_nestcnt=\count116
+)
+Package: listofitems 2018/03/13 v1.53 Grab items in lists using user-specified 
+sep char (CT)
+)
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tool
+s\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count117
+\calc@Bcount=\count118
+\calc@Adimen=\dimen122
+\calc@Bdimen=\dimen123
+\calc@Askip=\skip47
+\calc@Bskip=\skip48
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count119
+\calc@Cskip=\skip49
+)
+\c@@stackindex=\count120
+\@boxshift=\skip50
+\stack@tmplength=\skip51
+\temp@stkl=\skip52
+\@stackedboxwidth=\skip53
+\@addedbox=\box28
+\@anchorbox=\box29
+\stackedbox=\box30
+\@centerbox=\box31
+\c@ROWcellindex@=\count121
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip54
+\f@nch@O@elh=\skip55
+\f@nch@O@erh=\skip56
+\f@nch@O@olh=\skip57
+\f@nch@O@orh=\skip58
+\f@nch@O@elf=\skip59
+\f@nch@O@erf=\skip60
+\f@nch@O@olf=\skip61
+\f@nch@O@orf=\skip62
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
+Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
+\MT@toks=\toks20
+\MT@count=\count122
+LaTeX Info: Redefining \textls on input line 793.
+\MT@outer@kern=\dimen124
+LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
+\MT@listname@count=\count123
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
+File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 913.
+LaTeX Info: Redefining \lslig on input line 913.
+\MT@outer@space=\skip63
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
+File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
+))
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnf
+ss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen125
+\lightrulewidth=\dimen126
+\cmidrulewidth=\dimen127
+\belowrulesep=\dimen128
+\belowbottomsep=\dimen129
+\aboverulesep=\dimen130
+\abovetopsep=\dimen131
+\cmidrulesep=\dimen132
+\cmidrulekern=\dimen133
+\defaultaddspace=\dimen134
+\@cmidla=\count124
+\@cmidlb=\count125
+\@aboverulesep=\dimen135
+\@belowrulesep=\dimen136
+\@thisruleclass=\count126
+\@lastruleclass=\count127
+\@thisrulewidth=\dimen137
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip64
+\bibsep=\skip65
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count128
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\placeins\placeins.sty"
+Package: placeins 2005/04/18  v 2.2
+)
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tool
+s\afterpage.sty"
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks21
+\AP@partial=\box32
+\AP@footins=\box33
+) (DSP_Lab_Assignment.aux)
+\openout1 = `DSP_Lab_Assignment.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 27.
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base
+\ts1cmr.fd"
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 27.
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnf
+ss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\context\ba
+se\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count129
+\scratchdimen=\dimen138
+\scratchbox=\box34
+\nofMPsegments=\count130
+\nofMParguments=\count131
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count132
+\MPscratchDim=\dimen139
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
+\everyMPtoPDFconversion=\toks23
+)
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ober
+diek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ober
+diek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\c@lstlisting=\count135
+\AtBeginShipoutBox=\box35
+Package hyperref Info: Link coloring ON on input line 27.
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hype
+rref\nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ob
+erdiek\gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count136
+)
+LaTeX Info: Redefining \ref on input line 27.
+LaTeX Info: Redefining \pageref on input line 27.
+LaTeX Info: Redefining \nameref on input line 27.
+ (DSP_Lab_Assignment.out) (DSP_Lab_Assignment.out)
+\@outlinefile=\write3
+\openout3 = `DSP_Lab_Assignment.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(90.3375pt, 416.83289pt, 90.3375pt)
+* v-part:(T,H,B)=(90.3375pt, 664.37186pt, 90.3375pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=416.83289pt
+* \textheight=664.37186pt
+* \oddsidemargin=18.0675pt
+* \evensidemargin=18.0675pt
+* \topmargin=-18.9325pt
+* \headheight=15.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \microtypecontext on input line 27.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-ptm.cfg"
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
+<logo-ub.jpg, id=159, 396.0396pt x 299.4387pt>
+File: logo-ub.jpg Graphic file (type jpg)
+<use logo-ub.jpg>
+Package pdftex.def Info: logo-ub.jpg  used on input line 40.
+(pdftex.def)             Requested size: 284.53189pt x 227.62146pt.
+ [1
+
+{C:/Users/Ocarina Cloramidina/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
+} <./logo-ub.jpg>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
+ (DSP_Lab_Assignment.toc
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+)
+\tf@toc=\write4
+\openout4 = `DSP_Lab_Assignment.toc'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.54 \clearpage
+                [1
+
+]
+Chapter 1.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 57.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 57.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 57.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <24.88> on input line 57.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <20.74> on input line 57.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 57.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
+<startmatlab.jpg, id=213, 515.67656pt x 444.91219pt>
+File: startmatlab.jpg Graphic file (type jpg)
+<use startmatlab.jpg>
+Package pdftex.def Info: startmatlab.jpg  used on input line 80.
+(pdftex.def)             Requested size: 369.89409pt x 284.52557pt.
+[2
+
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 85.
+
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 91.
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnf
+ss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pcr' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+<startmatlab2.jpg, id=228, 295.1025pt x 232.61906pt>
+File: startmatlab2.jpg Graphic file (type jpg)
+<use startmatlab2.jpg>
+Package pdftex.def Info: startmatlab2.jpg  used on input line 100.
+(pdftex.def)             Requested size: 284.53346pt x 227.62791pt.
+ [3 <./startmatlab.jpg>] [4 <./startmatlab2.jpg>]
+Chapter 2.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 118.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 118.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 118.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 138.
+
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnf
+ss\ts1ptm.fd"
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+<cosineWave.jpg, id=250, 269.50688pt x 247.67531pt>
+File: cosineWave.jpg Graphic file (type jpg)
+<use cosineWave.jpg>
+Package pdftex.def Info: cosineWave.jpg  used on input line 150.
+(pdftex.def)             Requested size: 170.7196pt x 170.71474pt.
+ [5
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 155.
+
+<exsinwave.jpg, id=258, 250.536pt x 182.1204pt>
+File: exsinwave.jpg Graphic file (type jpg)
+<use exsinwave.jpg>
+Package pdftex.def Info: exsinwave.jpg  used on input line 167.
+(pdftex.def)             Requested size: 227.62492pt x 199.1798pt.
+[6 <./cosineWave.jpg>]
+<lab2-code1.jpg, id=269, 244.7544pt x 252.945pt>
+File: lab2-code1.jpg Graphic file (type jpg)
+<use lab2-code1.jpg>
+Package pdftex.def Info: lab2-code1.jpg  used on input line 177.
+(pdftex.def)             Requested size: 244.75378pt x 252.94438pt.
+<lab2-code2.jpg, id=270, 279.444pt x 272.6988pt>
+File: lab2-code2.jpg Graphic file (type jpg)
+<use lab2-code2.jpg>
+Package pdftex.def Info: lab2-code2.jpg  used on input line 185.
+(pdftex.def)             Requested size: 279.44331pt x 272.69812pt.
+ [7 <./exsinwave.jpg>] [8 <./lab2-code1.jpg> <./lab2-code2.jpg>] [9]
+Chapter 3.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 225.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 225.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 225.
+
+<squarewave-1.jpg, id=289, 377.15906pt x 300.3722pt>
+File: squarewave-1.jpg Graphic file (type jpg)
+<use squarewave-1.jpg>
+Package pdftex.def Info: squarewave-1.jpg  used on input line 236.
+(pdftex.def)             Requested size: 227.62082pt x 199.17665pt.
+<squarewave-2.jpg, id=290, 373.395pt x 297.36093pt>
+File: squarewave-2.jpg Graphic file (type jpg)
+<use squarewave-2.jpg>
+Package pdftex.def Info: squarewave-2.jpg  used on input line 248.
+(pdftex.def)             Requested size: 227.62248pt x 199.16725pt.
+[10
+
+] [11 <./squarewave-1.jpg>]
+<sqwa1.jpg, id=312, 250.536pt x 243.309pt>
+File: sqwa1.jpg Graphic file (type jpg)
+<use sqwa1.jpg>
+Package pdftex.def Info: sqwa1.jpg  used on input line 266.
+(pdftex.def)             Requested size: 250.53537pt x 243.30841pt.
+<sqwa2.jpg, id=314, 256.3176pt x 248.6088pt>
+File: sqwa2.jpg Graphic file (type jpg)
+<use sqwa2.jpg>
+Package pdftex.def Info: sqwa2.jpg  used on input line 274.
+(pdftex.def)             Requested size: 256.31697pt x 248.60817pt.
+ [12 <./squarewave-2.jpg>] [13 <./sqwa1.jpg> <./sqwa2.jpg>] [14]
+Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--303
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 333.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 333.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 333.
+
+[15
+
+]
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 346.
+
+
+("C:\Users\Ocarina Cloramidina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnf
+ss\ts1pcr.fd"
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pcr' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+<sawtooth-1.jpg, id=345, 421.575pt x 316.18124pt>
+File: sawtooth-1.jpg Graphic file (type jpg)
+<use sawtooth-1.jpg>
+Package pdftex.def Info: sawtooth-1.jpg  used on input line 354.
+(pdftex.def)             Requested size: 227.6278pt x 199.17111pt.
+File: squarewave-2.jpg Graphic file (type jpg)
+<use squarewave-2.jpg>
+Package pdftex.def Info: squarewave-2.jpg  used on input line 366.
+(pdftex.def)             Requested size: 227.62204pt x 181.27193pt.
+ [16 <./sawtooth-1.jpg>] [17]
+<lab4-code1.jpg, id=377, 127.22531pt x 79.04532pt>
+File: lab4-code1.jpg Graphic file (type jpg)
+<use lab4-code1.jpg>
+Package pdftex.def Info: lab4-code1.jpg  used on input line 392.
+(pdftex.def)             Requested size: 227.62204pt x 141.42868pt.
+<lab4-code2.jpg, id=378, 164.11313pt x 173.89969pt>
+File: lab4-code2.jpg Graphic file (type jpg)
+<use lab4-code2.jpg>
+Package pdftex.def Info: lab4-code2.jpg  used on input line 398.
+(pdftex.def)             Requested size: 227.62204pt x 241.19975pt.
+ [18 <./lab4-code1.jpg> <./lab4-code2.jpg>] [19
+
+
+]
+Chapter 5.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 411.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 411.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 411.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 428.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 428.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 428.
+
+<dt-part1.jpg, id=388, 422.32782pt x 365.11406pt>
+File: dt-part1.jpg Graphic file (type jpg)
+<use dt-part1.jpg>
+Package pdftex.def Info: dt-part1.jpg  used on input line 452.
+(pdftex.def)             Requested size: 227.62204pt x 196.79095pt.
+[20
+
+]
+<dt-part2.jpg, id=403, 426.09187pt x 375.65344pt>
+File: dt-part2.jpg Graphic file (type jpg)
+<use dt-part2.jpg>
+Package pdftex.def Info: dt-part2.jpg  used on input line 478.
+(pdftex.def)             Requested size: 227.62204pt x 200.68314pt.
+ [21 <./dt-part1.jpg>] [22 <./dt-part2.jpg>]
+<lab5-code1.jpg, id=425, 399.74344pt x 130.98938pt>
+File: lab5-code1.jpg Graphic file (type jpg)
+<use lab5-code1.jpg>
+Package pdftex.def Info: lab5-code1.jpg  used on input line 537.
+(pdftex.def)             Requested size: 399.74245pt x 130.98904pt.
+<lab5-code2.jpg, id=426, 447.92343pt x 206.27063pt>
+File: lab5-code2.jpg Graphic file (type jpg)
+<use lab5-code2.jpg>
+Package pdftex.def Info: lab5-code2.jpg  used on input line 543.
+(pdftex.def)             Requested size: 447.92233pt x 206.27011pt.
+
+Overfull \hbox (31.08945pt too wide) in paragraph at lines 543--544
+ [][] 
+ []
+
+[23 <./lab5-code1.jpg> <./lab5-code2.jpg>] [24
+
+
+]
+Chapter 6.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 556.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 556.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 556.
+
+<dt2-part1.jpg, id=436, 282.30469pt x 143.03438pt>
+File: dt2-part1.jpg Graphic file (type jpg)
+<use dt2-part1.jpg>
+Package pdftex.def Info: dt2-part1.jpg  used on input line 571.
+(pdftex.def)             Requested size: 227.62204pt x 115.3312pt.
+<dt2-part2.jpg, id=437, 391.4625pt x 130.23656pt>
+File: dt2-part2.jpg Graphic file (type jpg)
+<use dt2-part2.jpg>
+Package pdftex.def Info: dt2-part2.jpg  used on input line 581.
+(pdftex.def)             Requested size: 227.62204pt x 75.72803pt.
+[25
+
+ <./dt2-part1.jpg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 586.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 586.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 586.
+
+<dt2-part3.jpg, id=446, 210.7875pt x 147.55125pt>
+File: dt2-part3.jpg Graphic file (type jpg)
+<use dt2-part3.jpg>
+Package pdftex.def Info: dt2-part3.jpg  used on input line 609.
+(pdftex.def)             Requested size: 284.52756pt x 199.1743pt.
+<dt2-part4.jpg, id=447, 211.54031pt x 140.77594pt>
+File: dt2-part4.jpg Graphic file (type jpg)
+<use dt2-part4.jpg>
+Package pdftex.def Info: dt2-part4.jpg  used on input line 628.
+(pdftex.def)             Requested size: 284.52756pt x 189.35405pt.
+[26 <./dt2-part2.jpg>] [27 <./dt2-part3.jpg> <./dt2-part4.jpg>] [28]
+<lab6-code1.jpg, id=484, 258.9675pt x 148.30406pt>
+File: lab6-code1.jpg Graphic file (type jpg)
+<use lab6-code1.jpg>
+Package pdftex.def Info: lab6-code1.jpg  used on input line 663.
+(pdftex.def)             Requested size: 258.96684pt x 148.30368pt.
+<lab6-code2.jpg, id=485, 317.68687pt x 137.01187pt>
+File: lab6-code2.jpg Graphic file (type jpg)
+<use lab6-code2.jpg>
+Package pdftex.def Info: lab6-code2.jpg  used on input line 669.
+(pdftex.def)             Requested size: 317.68608pt x 137.01154pt.
+ [29 <./lab6-code1.jpg> <./lab6-code2.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 680.
+ [30
+
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 680.
+ (DSP_Lab_Assignment.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 680.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 680.
+Package rerunfilecheck Info: File `DSP_Lab_Assignment.out' has not changed.
+(rerunfilecheck)             Checksum: DCD496F3FECF9F90B0BFCB46F85C4ED4;2379.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 680.
+ ) 
+Here is how much of TeX's memory you used:
+ 12041 strings out of 492973
+ 179601 string characters out of 3120488
+ 345998 words of memory out of 3000000
+ 15473 multiletter control sequences out of 15000+200000
+ 22897 words of font info for 92 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 34i,9n,56p,1074b,2052s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Ocarina Cloramidina/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvi
+ps/base/8r.enc}<C:/Users/Ocarina Cloramidina/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ocarina Cloramidina/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/
+Ocarina Cloramidina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi12.pfb><C:/Users/Ocarina Cloramidina/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Ocarina Cloramidina/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/
+Ocarina Cloramidina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb><C:/Users/Ocarina Cloramidina/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Ocarina Cloramidina/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/O
+carina Cloramidina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmsy7.pfb><C:/Users/Ocarina Cloramidina/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Ocarina Cloramidina/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Ocarina Cloramid
+ina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
+Output written on DSP_Lab_Assignment.pdf (31 pages, 1061498 bytes).
+PDF statistics:
+ 576 PDF objects out of 1000 (max. 8388607)
+ 193 named destinations out of 1000 (max. 500000)
+ 15793 words of extra memory for PDF output out of 17280 (max. 10000000)
+
